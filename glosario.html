@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Glosario de Símbolos</title>
+
+    <link rel="stylesheet" href="glosario.css">
+    <script src="glosarioDB.js"></script>
+
+    <script>
+        window.MathJax = { tex: { inlineMath: [['$', '$']] } };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+
+<body>
+
+<h1>Glosario de Símbolos LaTeX</h1>
+
+<input type="text" id="buscador" placeholder="Buscar símbolo, nombre o categoría…">
+
+<div id="contenedor"></div>
+
+<button id="btnCerrar">Cerrar ventana</button>
+
+<script src="glosario.js"></script>
+
+</body>
+</html>
